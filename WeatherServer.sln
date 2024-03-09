@@ -4,8 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherServer", "WeatherServer\WeatherServer.csproj", "{BAE8BBF8-6BAF-4D19-AD34-D980FB8B54C7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D0B93C43-2747-4175-B068-9993ADA121A8} = {D0B93C43-2747-4175-B068-9993ADA121A8}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountryModel", "CountryModel\CountryModel.csproj", "{D0B93C43-2747-4175-B068-9993ADA121A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountryModel", "CountryModel\CountryModel.csproj", "{D0B93C43-2747-4175-B068-9993ADA121A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
